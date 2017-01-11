@@ -42,8 +42,17 @@ https://go.microsoft.com/fwlink/?LinkId=733558
 command+shift+b
 ```
 
+生成
+
+```
+./a.out.dSYM
+./a.out
+```
+
 ## Debug
 
 ```
 command+shift+d
 ```
+
+再次F5开始调试吧！
