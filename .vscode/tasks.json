@@ -5,10 +5,10 @@
     "command": "clang",
     "isShellCommand": true,
     "args": [
-        "test.c", // プログラムファイル
-        "-g",     // デバッグ情報付加する。ないとデバッグできない。
-        "-O0",    // コンパイル速度重視
-        "-m32"    // 64bitの場合
+        "test.c", // 入口文件
+        "-g",     // 是否生成调试信息
+        "-O0",    // 提示编译速度
+        "-m32"    // 64bit下
     ],
     "showOutput": "always"
 }
