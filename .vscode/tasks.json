@@ -6,9 +6,9 @@
     "isShellCommand": true,
     "args": [
         "test.c", // 入口文件
-        "-g",     // 是否生成调试信息
-        "-O0",    // 提示编译速度
-        "-m32"    // 64bit下
+        "-g", // 是否生成调试信息
+        "-O0", // 提示编译速度
+        "-m32" // 64bit下
     ],
     "showOutput": "always"
 }
